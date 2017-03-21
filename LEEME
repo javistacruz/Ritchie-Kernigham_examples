@@ -1,0 +1,6 @@
+
+Este directorio contiene los ejemplos del libro "El lenguaje de programación C", de Keringhan & Ritchie, con los que he estado trabajando. Los subdirectorios siguen el orden del libro (en su edición de 1988).
+
+Lo empleo también para practicar con el control de versiones, tanto en su versión más primitiva y transparente, `diff' y `patch', como en la más moderna y eficaz, `git'.
+
+Con estos ejercicios pretendo, además de aprender algo de C, encontrar un orden de algún modo canónico, para mis propias 'katas'.
