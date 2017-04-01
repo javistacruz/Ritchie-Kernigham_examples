@@ -1,14 +1,15 @@
-# Ritchie-Kernighan_examples
-Some C exercises based on Rithcie &amp; Kernighan' s "The C Language Programming"
+# Ejemplos de Ritchie&Kernighan
+Algunos ejercicios basado en el libro "El lenguaje de programación C".
 
-This is kind of mid way between learning C and organizing my katas around some general concepts.
+Estos ejercicios por un lado me sirven para aprender algo de C, y por otro para encontrar una organización temática sólida para las catas basada en este libro, hoy ya un clásico, sobre programación.
 
-Folders
-=======
-Numbered folders can be found. Numbers follow cronological order inside Ritchies&Kernighan's book. Otherwise, titles doesen't necessary correspond book ones. They act more like tags than propper titles.
+Directorios
+===========
 
-Unfoldered files
-================
+En el repositorio podemos encontrar directorios numerados. Los números siguen el orden cronológico del libro. Por otro lado, los títulos no se corresponden necesariamente con los epígrafes del libro, sino que actúan más bien como *marcadores*.
 
-- `README` is this file you are reading right now. 
-- `leeme.org` is kind of mixed log file and spanish written *readme*. It's in emacs `org-mode` using babel, and the entire project can be generated from the file if it's opened in emacs itself.
+Archivos sin directorio
+=======================
+
+- `README.md` es el archivo que usted está leyendo en estos momentos.
+- `leeme.org` bitácora y documentación adicionales. Está escrito en `org-mode` de `emacs`, usando `babel`, y por lo tanto el proyecto entero se puede generar desde este mismo archivo abierto en emacs con la función 
