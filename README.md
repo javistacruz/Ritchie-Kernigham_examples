@@ -1,4 +1,5 @@
 # Ejemplos de Ritchie&Kernighan
+
 Algunos ejercicios basado en el libro "El lenguaje de programación C".
 
 Estos ejercicios por un lado me sirven para aprender algo de C, y por otro para encontrar una organización temática sólida para las catas basada en este libro, hoy ya un clásico, sobre programación.
