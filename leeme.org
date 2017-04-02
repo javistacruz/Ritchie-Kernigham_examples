@@ -1,0 +1,41 @@
+#+TITLE: Glosas a "El lenguaje de programación =C="
+#+DATE: <2017-04-02 dom>
+#+AUTHOR: Javier Santa Cruz
+#+EMAIL: correo@javistacruz.coms
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 25.1.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+
+
+* OUTPUTS
+
+** =hola.c=
+Fue precisamente mostrando el funcionamiento de las salidas cuando Rithcie & Kerniham plantearon un ejemplo que se haría célebre como toma de contacto con un nuevo lenguaje de programación: el 'Hola, mundo':
+
+#+BEGIN_QUOTE
+La única forma de aprender un nuevo lenguaje de programación es escribiendo programas con él. El primer programa por escribir es el mismo en todos los lenguajes:
+
+/Imprima las palabras/
+
+hola, mundo
+
+Este es el gran obstáculo; para librarlo debe tener la habilidad de crear el texto del programa de alguna manera, compilarlo con éxito, cargarlo, ejecutarlo y descubrir a dónde fue la salida. Con el dominio de estos detalles mecánicos, todo lo demás es relativamente fácil.
+
+En C, el programa para escribir "hola, mundo" es
+#+END_QUOTE
+
+#+BEGIN_SRC C :tangle 1.OUTPUTS/hola.c
+#include <stdio.h>
+
+main(){
+printf("Hola,\c mundo.\n");
+}
+
+#+END_SRC
